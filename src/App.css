@@ -2,37 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+  margin-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.VerificationText{
+  margin-top: 49.09px;
+  margin-bottom: 46.46px;
+  font-size: 50.51px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type="text"]{
+  width: 84px;
+  height: 100px;
+  margin-right: 20px;
+  border: 0;
+  background: #EFEFEF;
+  border-radius: 10px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.description{
+  margin-top: 67.11px;
+  color: #7C7C7C;
+}
+
+.CountDownTimer{
+  margin-top: 48.7px;
+  font-size: 20px;
+  color: #2C6693;
+  font-weight: bold;
+}
+
+.VerificationButton{
+  background: #2C6693;
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 48.68px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.RequestVerificationCode{
+  display: block;
+  text-decoration: none;
+  color: #2C6693;
+  margin-top: 44.8px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
